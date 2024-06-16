@@ -39,3 +39,4 @@ allure-results
 .env.bstack
 .env.local_emulator
 .env.local_real
+app-alpha-universal-release.apk
