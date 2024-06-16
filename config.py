@@ -18,7 +18,6 @@ class Config(BaseModel):
     udid: str = os.getenv('UDID')
     user_name: str = os.getenv('USER_NAME')
     access_key: str = os.getenv('ACCESS_KEY')
-    print(app_local_path)
     def to_driver_options(self, context):
         options = UiAutomator2Options()
 
